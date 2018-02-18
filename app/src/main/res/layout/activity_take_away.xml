@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adibf.adibfakhrimuhtadi_1202154192_m2.TakeAway">
+
+    <TextView
+        android:id="@+id/identitas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Identitas Pemesan: "
+        android:textSize="25sp"
+        android:layout_marginTop="21sp"/>
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/identitas"
+        android:layout_alignLeft="@+id/identitas"
+        android:layout_alignRight="@+id/identitas"
+        android:layout_alignStart="@+id/identitas"
+        android:layout_below="@+id/identitas"
+        android:hint="Nama" />
+
+    <EditText
+        android:id="@+id/noHP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/nama"
+        android:layout_alignLeft="@+id/nama"
+        android:layout_alignRight="@+id/nama"
+        android:layout_alignStart="@+id/nama"
+        android:layout_below="@id/nama"
+        android:hint="No HP"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/nama"
+        android:layout_alignLeft="@+id/nama"
+        android:layout_alignRight="@+id/nama"
+        android:layout_alignStart="@+id/nama"
+        android:layout_below="@id/noHP"
+        android:hint="Alamat" />
+
+    <EditText
+        android:id="@+id/catatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/nama"
+        android:layout_alignLeft="@+id/nama"
+        android:layout_alignRight="@+id/nama"
+        android:layout_alignStart="@+id/nama"
+        android:layout_below="@id/alamat"
+        android:hint="Catatan" />
+
+    <Button
+        android:id="@+id/memesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Pesanan"
+        android:layout_below="@id/catatan"
+        android:layout_alignEnd="@+id/nama"
+        android:layout_alignLeft="@+id/nama"
+        android:layout_alignRight="@+id/nama"
+        android:layout_alignStart="@+id/nama"
+        android:onClick="PilihPesanan"
+        />
+</RelativeLayout>

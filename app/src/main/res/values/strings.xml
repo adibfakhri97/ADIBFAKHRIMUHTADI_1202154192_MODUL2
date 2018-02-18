@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ADIBFAKHRIMUHTADI_1202154192_M2</string>
+    <string name="toast">ADIB_1202154192</string>
+    <string name="pilihan">Pilih:</string>
+    <string name="dine_in">Dine In</string>
+    <string name="take_away">Take Away</string>
+    <string name="nothing">Tidak ada yang di klik</string>
+    <string name="no_meja">No Meja:</string>
+    <string name="nama">Nama</string>
+    <string name="detail_customer">Detail Customer:</string>
+    <string name="pilih_pesanan">PILIH PESANAN</string>
+
+    <string-array name="spinner_array">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+        <item>Meja 5</item>
+    </string-array>
+
+
+</resources>

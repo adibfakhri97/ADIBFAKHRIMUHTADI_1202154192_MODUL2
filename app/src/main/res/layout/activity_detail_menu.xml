@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adibf.adibfakhrimuhtadi_1202154192_m2.DetailMenu">
+
+
+    <ImageView
+        android:id="@+id/gambarMakanan"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp" />
+
+    <TextView
+        android:id="@+id/namaMakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gambarMakanan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="Ini namanya"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hargaMakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namaMakanan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="Ini Harganya" />
+
+    <TextView
+        android:id="@+id/komposisiJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hargaMakanan"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="22dp"
+        android:layout_toLeftOf="@+id/namaMakanan"
+        android:layout_toStartOf="@+id/namaMakanan"
+        android:text="Komposisi: " />
+
+    <TextView
+        android:id="@+id/komposisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/komposisiJudul"
+        android:layout_alignStart="@+id/komposisiJudul"
+        android:layout_below="@+id/komposisiJudul"
+        android:layout_marginTop="29dp"
+        android:text="Ini Komposisinya" />
+
+
+
+</RelativeLayout>

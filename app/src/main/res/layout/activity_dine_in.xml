@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adibf.adibfakhrimuhtadi_1202154192_m2.DineIn">
+
+    <TextView
+        android:id="@+id/detailCus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="@string/detail_customer"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/namaCus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/detailCus"
+        android:layout_alignLeft="@+id/detailCus"
+        android:layout_alignRight="@+id/detailCus"
+        android:layout_alignStart="@+id/detailCus"
+        android:layout_below="@+id/detailCus"
+        android:layout_marginTop="17dp"
+        android:hint="@string/nama" />
+
+    <TextView
+        android:id="@+id/meja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/namaCus"
+        android:layout_alignStart="@+id/namaCus"
+        android:layout_below="@id/namaCus"
+        android:text="@string/no_meja" />
+
+    <Spinner
+        android:id="@+id/spinner_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/namaCus"
+        android:layout_alignRight="@+id/namaCus"
+        android:layout_below="@+id/namaCus"
+        >
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/pesanMeja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="@string/pilih_pesanan"
+        android:onClick="PilihPesanan"/>
+
+</RelativeLayout>
